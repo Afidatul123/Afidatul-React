@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.20rem;
+  padding-bottom: 0.20rem;
+}
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.button{
+  color: white;
+  background-color:darksalmon;
+  padding: 10px;
+  width: max-content;
+  border-style:groove;
+  border-color:blanchedalmond;
+}
+.nav-link-icon {
+  width: 1.5rem;
+  height: 1.25rem;
+  margin-right: 0.25rem;
+  opacity: 0.7;
+}
+
+.page-body {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.row-cards {
+  --tblr-gutter-x: 1rem;
+  --tblr-gutter-y: 1rem;
+}
+.row-cards .row-cards {
+  flex: 1;
+}
